@@ -1,5 +1,6 @@
 
-// Verifica se o jogador (obj_player) existe
+// combate do inimigo
+//esse so vai atacar o player para deixar o jogo mais dificil
 if (instance_exists(obj_player)) {
     // Define o alvo como o obj_player
     alvo = obj_player;
@@ -31,4 +32,8 @@ if (instance_exists(obj_player)) {
         
         alvo.vida -= 1;
     }
+}
+//cabo vida = morreu
+if(vida<0){
+	instance_destroy();
 }
