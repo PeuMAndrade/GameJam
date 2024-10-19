@@ -49,6 +49,7 @@
     {"id":{"name":"Object_Humano","path":"objects/Object_Humano/Object_Humano.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},},
+    {"id":{"name":"spr_hud_barra_progresso_solar_painel","path":"sprites/spr_hud_barra_progresso_solar_painel/spr_hud_barra_progresso_solar_painel.yy",},},
     {"id":{"name":"spr_hud_barra_vida","path":"sprites/spr_hud_barra_vida/spr_hud_barra_vida.yy",},},
     {"id":{"name":"spr_hud_vida","path":"sprites/spr_hud_vida/spr_hud_vida.yy",},},
     {"id":{"name":"spr_painel_solar_mid","path":"sprites/spr_painel_solar_mid/spr_painel_solar_mid.yy",},},
