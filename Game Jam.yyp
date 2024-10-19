@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -41,12 +41,15 @@
   },
   "name":"Game Jam",
   "resources":[
+    {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
     {"id":{"name":"obj_arvore","path":"objects/obj_arvore/obj_arvore.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_painel_solar","path":"objects/obj_painel_solar/obj_painel_solar.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Object_Barreira","path":"objects/Object_Barreira/Object_Barreira.yy",},},
     {"id":{"name":"Object_Humano","path":"objects/Object_Humano/Object_Humano.yy",},},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},},
     {"id":{"name":"spr_hud_barra_progresso_solar_painel","path":"sprites/spr_hud_barra_progresso_solar_painel/spr_hud_barra_progresso_solar_painel.yy",},},
@@ -62,6 +65,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
