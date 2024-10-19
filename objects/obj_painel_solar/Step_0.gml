@@ -17,7 +17,9 @@ if ((distancia <= raio_aproximacao) && sprite_index != spr_painel_solar) {
 } else if(load_counter<hp_max){
     // Se não houver colisão, interrompe o carregamento
     is_loading = false;
-	load_counter--;
+	if(load_counter>0){
+		load_counter--;
+	}
 }else{
 	is_loading = false;
 	
