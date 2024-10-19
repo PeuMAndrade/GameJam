@@ -1,20 +1,30 @@
-/// @description Insert description here
-// You can write your code in this editor
-if (is_loading && sprite_index != spr_painel_solar) {
+// Evento Step (obj_personagem)
+
+// Verifica se o personagem está colidindo com o objeto obj_item
+var distancia = point_distance(x, y, obj_player.x, obj_player.y);
+var raio_aproximacao = 50;
+if ((distancia <= raio_aproximacao) && sprite_index != spr_painel_solar) {
+    // Inicia o carregamento se não estiver carregando
+    
+	if (!is_loading) {
+        is_loading = true;
+        load_counter = 0; // Reinicia o contador
+    }
+
     // Incrementa o contador de carregamento
     load_counter++;
 
-    // Verifica se o tempo de carregamento foi atingido
-    if (load_counter < load_time) {
-        // Troca o sprite para o estado intermediário
-        if (load_counter >= 50) {
-            sprite_index = spr_painel_solar_mid;
-        }
-    } else {
-        // Se o tempo de carregamento foi atingido, muda para o sprite final
-        sprite_index = spr_painel_solar;
-        is_loading = false; // Desativa o estado de carregamento
-        
-        // Aqui você pode adicionar a lógica que deseja executar após o carregamento
+    // Muda o sprite para o estado intermediário
+    if (load_counter >= 150 && load_counter < load_time) {
+        sprite_index = spr_painel_solar_mid;
     }
+
+    // Verifica se o tempo de carregamento foi atingido
+    if (load_counter >= load_time) {
+        sprite_index = spr_painel_solar; // Sprite final após o carregamento
+        is_loading = false; // Finaliza o carregamento
+    }
+} else {
+    // Se não houver colisão, interrompe o carregamento
+    is_loading = false;
 }
