@@ -9,3 +9,6 @@ var _totalo = 10;
 draw_sprite_ext(spr_hud_barra_vida, 0, 0, _huda, (instance_number(obj_arvore)/_totalo) * _escala, _escala, 0, c_white, 1);
 
 draw_sprite_ext(spr_hud_vida, 0, 0, _huda, _escala, _escala, 0, c_white, 1);
+
+
+

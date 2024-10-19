@@ -36,6 +36,5 @@ if (keyboard_check(vk_right)) {
 
 //bater
 if(keyboard_check(ord("G"))){
-
-
 }
+
