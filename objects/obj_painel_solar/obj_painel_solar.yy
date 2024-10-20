@@ -32,9 +32,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_painel_solar_quebrado",
-    "path":"sprites/spr_painel_solar_quebrado/spr_painel_solar_quebrado.yy",
+    "name":"Sprite17",
+    "path":"sprites/Sprite17/Sprite17.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Sprite17",
+    "path":"sprites/Sprite17/Sprite17.yy",
+  },
   "visible":true,
 }
