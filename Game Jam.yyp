@@ -24,6 +24,7 @@
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Colisao","folderPath":"folders/Sprites/Colisao.yy","name":"Colisao","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"projetil","folderPath":"folders/Sprites/projetil.yy","name":"projetil","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hub","folderPath":"folders/Sprites/Hub.yy","name":"Hub","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Painel_solar","folderPath":"folders/Sprites/Painel_solar.yy","name":"Painel_solar","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -44,6 +45,7 @@
   "resources":[
     {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
     {"id":{"name":"obj_arvore","path":"objects/obj_arvore/obj_arvore.yy",},},
+    {"id":{"name":"obj_bala","path":"objects/obj_bala/obj_bala.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
     {"id":{"name":"obj_energiaeolica","path":"objects/obj_energiaeolica/obj_energiaeolica.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
@@ -56,6 +58,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_arvore_morta","path":"sprites/spr_arvore_morta/spr_arvore_morta.yy",},},
     {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},},
+    {"id":{"name":"Spr_bala","path":"sprites/Spr_bala/Spr_bala.yy",},},
     {"id":{"name":"spr_hud_barra_progresso_solar_painel","path":"sprites/spr_hud_barra_progresso_solar_painel/spr_hud_barra_progresso_solar_painel.yy",},},
     {"id":{"name":"spr_hud_barra_vida","path":"sprites/spr_hud_barra_vida/spr_hud_barra_vida.yy",},},
     {"id":{"name":"spr_hud_vida","path":"sprites/spr_hud_vida/spr_hud_vida.yy",},},
