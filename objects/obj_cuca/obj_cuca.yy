@@ -1,20 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_cuca",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_arvore","path":"objects/obj_arvore/obj_arvore.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_cuca",
   "overriddenProperties":[],
   "parent":{
     "name":"Dialogo",
     "path":"folders/Objects/Dialogo.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_par_npcs",
+    "path":"objects/obj_par_npcs/obj_par_npcs.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,9 +35,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_Player",
-    "path":"sprites/Sprite_Player/Sprite_Player.yy",
+    "name":"spr_cuca",
+    "path":"sprites/spr_cuca/spr_cuca.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_cuca",
+    "path":"sprites/spr_cuca/spr_cuca.yy",
+  },
   "visible":true,
 }

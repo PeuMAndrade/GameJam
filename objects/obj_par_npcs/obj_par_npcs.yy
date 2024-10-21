@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_energiaeolica",
+  "%Name":"obj_par_npcs",
   "eventList":[],
   "managed":true,
-  "name":"obj_energiaeolica",
+  "name":"obj_par_npcs",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Dialogo",
+    "path":"folders/Objects/Dialogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_energiaeolica",
-    "path":"sprites/spr_energiaeolica/spr_energiaeolica.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
